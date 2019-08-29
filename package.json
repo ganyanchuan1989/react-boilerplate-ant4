@@ -4,7 +4,6 @@
   "author": "ganxz",
   "version": "1.0.0",
   "scripts": {
-    "commitmsg": "commitlint -e $GIT_PARAMS",
     "start": "cross-env NODE_ENV=development node build/dev.js",
     "build": "cross-env NODE_ENV=production node build/prod.js",
     "bundle-analyzer": "cross-env NODE_ENV=production node build/prod.js analyzer",
