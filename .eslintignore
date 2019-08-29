@@ -1,0 +1,6 @@
+dist/**
+node_modules/**
+node_modules_bak/**
+src/assets/**
+static/**
+build/**

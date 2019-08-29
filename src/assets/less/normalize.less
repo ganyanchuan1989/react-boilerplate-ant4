@@ -1,0 +1,101 @@
+/*=======================================
+  normalize.less 定义全局的样式
+  eg: 
+      *{
+        margin: 0; 
+        padding: 0;
+      }
+   or 
+      :global(.class) { 
+        margin: 0; 
+        padding: 0;
+      }
+//=======================================*/
+// * {
+//   // margin: 0;
+//   // padding: 0;
+//   // box-sizing: border-box;
+// }
+
+/**
+* ========外边距========
+**/
+// 上下左右
+:global(.bc-gap-5) {
+  margin: 5px;
+}
+
+// 左右
+:global(.bc-gap-5-h) {
+  margin: 0 5px;
+}
+
+// 上下
+:global(.bc-gap-5-v) {
+  margin: 5px 0;
+}
+
+// 上
+:global(.bc-gap-5-t) {
+  margin-top: 5px;
+}
+
+// 右
+:global(.bc-gap-5-r) {
+  margin-top: 5px;
+}
+
+// 下
+:global(.bc-gap-5-b) {
+  margin-top: 5px;
+}
+
+// 左
+:global(.bc-gap-5-l) {
+  margin-left: 5px;
+}
+
+/**
+* ========内边距========
+**/
+// 上下左右
+:global(.bc-pd-5) {
+  margin: 5px;
+}
+
+// 左右
+:global(.bc-pd-5-h) {
+  margin: 0 5px;
+}
+
+// 上下
+:global(.bc-pd-5-v) {
+  margin: 5px 0;
+}
+
+// 上
+:global(.bc-pd-5-t) {
+  margin-top: 5px;
+}
+
+// 右
+:global(.bc-pd-5-r) {
+  margin-top: 5px;
+}
+
+// 下
+:global(.bc-pd-5-b) {
+  margin-top: 5px;
+}
+
+// 左
+:global(.bc-pd-5-l) {
+  margin-left: 5px;
+}
+
+:global(.test-bg) {
+  background: red;
+}
+:global(.am-number-keyboard-item) {
+  touch-action: manipulation;
+}
